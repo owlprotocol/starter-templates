@@ -208,6 +208,9 @@ importers:
       '@grammyjs/i18n':
         specifier: ^1.0.2
         version: 1.1.2(grammy@1.32.0(encoding@0.1.13))
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
       firebase-admin:
         specifier: ^12.1.0
         version: 12.7.0(encoding@0.1.13)
