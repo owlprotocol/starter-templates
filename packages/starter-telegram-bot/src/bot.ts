@@ -34,3 +34,9 @@ export const bot = getBot<MySessionState, MyContext>({
         initial: () => ({ counter: 0 }),
     }),
 });
+
+// Catch all when outside of command context
+bot.on("message", async (ctx) => {
+    const message = ctx.message; // the message object
+    await ctx.reply(`Echo: ${message.text}`);
+});
