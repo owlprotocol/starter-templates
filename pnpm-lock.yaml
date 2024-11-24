@@ -78,79 +78,6 @@ importers:
         specifier: ^1.10.12
         version: 1.13.4
 
-  packages/starter-bot:
-    dependencies:
-      '@grammyjs/conversations':
-        specifier: ^1.2.0
-        version: 1.2.0(grammy@1.32.0(encoding@0.1.13))
-      '@grammyjs/i18n':
-        specifier: ^1.0.2
-        version: 1.1.2(grammy@1.32.0(encoding@0.1.13))
-      firebase-admin:
-        specifier: ^12.1.0
-        version: 12.7.0(encoding@0.1.13)
-      firebase-functions:
-        specifier: ^5.0.0
-        version: 5.1.1(firebase-admin@12.7.0(encoding@0.1.13))
-      grammy:
-        specifier: ^1.27.0
-        version: 1.32.0(encoding@0.1.13)
-      lodash-es:
-        specifier: 4.17.21
-        version: 4.17.21
-      zod:
-        specifier: 3.21.4
-        version: 3.21.4
-    devDependencies:
-      '@owlprotocol/esbuild-config':
-        specifier: ^3.0.0
-        version: 3.1.0
-      '@owlprotocol/eslint-config':
-        specifier: ^3.0.0
-        version: 3.1.0
-      '@owlprotocol/prettier-config':
-        specifier: ^3.0.0
-        version: 3.1.0
-      '@owlprotocol/tsconfig':
-        specifier: '*'
-        version: 3.1.0
-      '@types/lodash-es':
-        specifier: 4.17.12
-        version: 4.17.12
-      '@types/node':
-        specifier: ^20.11.10
-        version: 20.16.5
-      '@typescript/analyze-trace':
-        specifier: ^0.10.1
-        version: 0.10.1
-      depcheck:
-        specifier: ^1.4.7
-        version: 1.4.7
-      lint-staged:
-        specifier: ^11.2.6
-        version: 11.2.6
-      madge:
-        specifier: ^5.0.2
-        version: 5.0.2
-      npm-run-all:
-        specifier: ^4.1.5
-        version: 4.1.5
-      rimraf:
-        specifier: ^3.0.2
-        version: 3.0.2
-      tsx:
-        specifier: ^4.11.0
-        version: 4.19.2
-      typescript:
-        specifier: 5.4.5
-        version: 5.4.5
-      vite:
-        specifier: ^5.1.6
-        version: 5.4.7(@types/node@20.16.5)
-      vitest:
-        specifier: ^1.4.0
-        version: 1.6.0(@types/node@20.16.5)
-
   packages/starter-firebase-firestore:
     dependencies:
       '@owlprotocol/crud-firebase':
@@ -263,6 +190,79 @@ importers:
       rimraf:
         specifier: ^3.0.2
         version: 3.0.2
+      typescript:
+        specifier: 5.4.5
+        version: 5.4.5
+      vite:
+        specifier: ^5.1.6
+        version: 5.4.7(@types/node@20.16.5)
+      vitest:
+        specifier: ^1.4.0
+        version: 1.6.0(@types/node@20.16.5)
+
+  packages/starter-telegram-bot:
+    dependencies:
+      '@grammyjs/conversations':
+        specifier: ^1.2.0
+        version: 1.2.0(grammy@1.32.0(encoding@0.1.13))
+      '@grammyjs/i18n':
+        specifier: ^1.0.2
+        version: 1.1.2(grammy@1.32.0(encoding@0.1.13))
+      firebase-admin:
+        specifier: ^12.1.0
+        version: 12.7.0(encoding@0.1.13)
+      firebase-functions:
+        specifier: ^5.0.0
+        version: 5.1.1(firebase-admin@12.7.0(encoding@0.1.13))
+      grammy:
+        specifier: ^1.27.0
+        version: 1.32.0(encoding@0.1.13)
+      lodash-es:
+        specifier: 4.17.21
+        version: 4.17.21
+      zod:
+        specifier: 3.21.4
+        version: 3.21.4
+    devDependencies:
+      '@owlprotocol/esbuild-config':
+        specifier: ^3.0.0
+        version: 3.1.0
+      '@owlprotocol/eslint-config':
+        specifier: ^3.0.0
+        version: 3.1.0
+      '@owlprotocol/prettier-config':
+        specifier: ^3.0.0
+        version: 3.1.0
+      '@owlprotocol/tsconfig':
+        specifier: '*'
+        version: 3.1.0
+      '@types/lodash-es':
+        specifier: 4.17.12
+        version: 4.17.12
+      '@types/node':
+        specifier: ^20.11.10
+        version: 20.16.5
+      '@typescript/analyze-trace':
+        specifier: ^0.10.1
+        version: 0.10.1
+      depcheck:
+        specifier: ^1.4.7
+        version: 1.4.7
+      lint-staged:
+        specifier: ^11.2.6
+        version: 11.2.6
+      madge:
+        specifier: ^5.0.2
+        version: 5.0.2
+      npm-run-all:
+        specifier: ^4.1.5
+        version: 4.1.5
+      rimraf:
+        specifier: ^3.0.2
+        version: 3.0.2
+      tsx:
+        specifier: ^4.11.0
+        version: 4.19.2
       typescript:
         specifier: 5.4.5
         version: 5.4.5
