@@ -7,6 +7,10 @@
         ".env.vault"
     ],
     "pipeline": {
+        "@owlprotocol/starter-envvars#build": {
+            "dependsOn": ["^build"],
+            "outputs": ["dist/**", "lib/**", "src/envvars.ts", "src/envvars.browser.ts"]
+        },
         "build": {
             "dependsOn": [
                 "^build"

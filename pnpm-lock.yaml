@@ -78,6 +78,58 @@ importers:
         specifier: ^1.10.12
         version: 1.13.4
 
+  packages/starter-envvars:
+    dependencies:
+      dotenv:
+        specifier: ^16.4.5
+        version: 16.4.5
+      find-config:
+        specifier: ^1.0.0
+        version: 1.0.0
+    devDependencies:
+      '@owlprotocol/esbuild-config':
+        specifier: ^3.0.0
+        version: 3.1.0
+      '@owlprotocol/eslint-config':
+        specifier: ^3.0.0
+        version: 3.1.0
+      '@owlprotocol/prettier-config':
+        specifier: ^3.0.0
+        version: 3.1.0
+      '@owlprotocol/tsconfig':
+        specifier: ^3.0.0
+        version: 3.1.0
+      '@types/eslint':
+        specifier: ^8.44.2
+        version: 8.56.12
+      '@types/find-config':
+        specifier: ^1.0.2
+        version: 1.0.4
+      '@types/node':
+        specifier: ^20.11.10
+        version: 20.16.5
+      depcheck:
+        specifier: ^1.4.7
+        version: 1.4.7
+      eslint:
+        specifier: ^8.55.0
+        version: 8.57.1
+      npm-run-all:
+        specifier: ^4.1.5
+        version: 4.1.5
+      rimraf:
+        specifier: ^3.0.2
+        version: 3.0.2
+      tsx:
+        specifier: ^4.11.0
+        version: 4.19.2
+      typescript:
+        specifier: 5.4.5
+        version: 5.4.5
+      vite:
+        specifier: ^5.1.6
+        version: 5.4.7(@types/node@20.16.5)
+
   packages/starter-firebase-firestore:
     dependencies:
       '@owlprotocol/crud-firebase':
@@ -1604,6 +1656,9 @@ packages:
   '@types/cors@2.8.17':
     resolution: {integrity: sha512-8CGDvrBj1zgo2qE+oS3pOCyYNqCPryMWY2bGfwA0dcfopWGgxs+78df0Rs3rc9THP4JkOhLsAa+15VdpAqkcUA==}
 
+  '@types/eslint@8.56.12':
+    resolution: {integrity: sha512-03ruubjWyOHlmljCVoxSuNDdmfZDzsrrz0P2LeJsOXr+ZwFQ+0yQIwNCwt/GYhV7Z31fgtXJTAEs+FYlEL851g==}
+
   '@types/estree@1.0.5':
     resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
 
@@ -1621,6 +1676,9 @@ packages:
 
   '@types/express@4.17.3':
     resolution: {integrity: sha512-I8cGRJj3pyOLs/HndoP+25vOqhqWkAZsWMEmq1qXy/b/M3ppufecUwaK2/TVDVxcV61/iSdhykUjQQ2DLSrTdg==}
+
+  '@types/find-config@1.0.4':
+    resolution: {integrity: sha512-BCXaKgzHK7KnfCQBRQBWGTA+QajOE9uFolXPt+9EktiiMS56D8oXF2ZCh9eCxuEyfqDmX/mYIcmWg9j9f659eg==}
 
   '@types/http-errors@2.0.4':
     resolution: {integrity: sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==}
@@ -7364,6 +7422,11 @@ snapshots:
     dependencies:
       '@types/node': 20.16.5
 
+  '@types/eslint@8.56.12':
+    dependencies:
+      '@types/estree': 1.0.6
+      '@types/json-schema': 7.0.15
+
   '@types/estree@1.0.5': {}
 
   '@types/estree@1.0.6': {}
@@ -7394,6 +7457,8 @@ snapshots:
       '@types/body-parser': 1.19.5
       '@types/express-serve-static-core': 5.0.1
       '@types/serve-static': 1.15.7
+
+  '@types/find-config@1.0.4': {}
 
   '@types/http-errors@2.0.4': {}
 
