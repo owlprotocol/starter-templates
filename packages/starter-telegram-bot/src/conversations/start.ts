@@ -56,14 +56,14 @@ export async function start(conversation: MyConversation, ctx: MyContext) {
     // Conversation log
     conversation.log(`selected ${result.selected}`);
 
-    if (result.selected === "settings") {
-        // conversation.log(ctx);
-        // await ctx.conversation.reenter()
+    // if (result.selected === "settings") {
+    // conversation.log(ctx);
+    // await ctx.conversation.reenter()
 
-        // conversation.log(result.ctx.conversation);
-        // await result.ctx.conversation.enter("settings");
-        await conversation.skip();
-    }
+    // conversation.log(result.ctx.conversation);
+    // await result.ctx.conversation.enter("settings");
+    // await conversation.skip();
+    // }
 
     // Force Reply
     // const locale = ctx.from?.language_code;
