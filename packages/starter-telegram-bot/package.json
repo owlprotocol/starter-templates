@@ -8,10 +8,10 @@
   ],
   "private": true,
   "type": "module",
-  "homepage": "https://leovigna.github.io/easywallet",
+  "homepage": "https://github.com/owlprotocol/starter-templates",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leovigna/easywallet.git"
+    "url": "https://github.com/owlprotocol/starter-templates.git"
   },
   "copyright": "Copyright 2024 Leo Vigna",
   "license": "MIT",
@@ -93,7 +93,7 @@
     "vitest": "^1.4.0"
   },
   "bugs": {
-    "url": "https://github.com/leovigna/easywallet/issues",
+    "url": "https://github.com/owlprotocol/starter-templates/issues",
     "email": "leo@owlprotocol.xyz"
   },
   "funding": "https://github.com/leovigna/easywallet",

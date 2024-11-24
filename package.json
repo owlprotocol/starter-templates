@@ -10,6 +10,11 @@
   "license": "MIT",
   "author": "Leo Vigna",
   "type": "module",
+  "homepage": "https://github.com/owlprotocol/starter-templates",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owlprotocol/starter-templates.git"
+  },
   "scripts": {
     "build": "turbo run build",
     "build:force": "turbo run build --force",
