@@ -1,0 +1,32 @@
+{
+  "functions": [
+    {
+      "source": "dist",
+      "codebase": "default",
+      "ignore": ["node_modules", ".git", "firebase-debug.log", "firebase-debug.*.log", "*.local"]
+    }
+  ],
+  "emulators": {
+    "auth": {
+      "enabled": false,
+      "port": 9099
+    },
+    "firestore": {
+      "enabled": true,
+      "port": 18080
+    },
+    "storage": {
+      "enabled": false,
+      "port": 9199
+    },
+    "functions": {
+      "enabled": true,
+      "port": 5001
+    },
+    "ui": {
+      "enabled": true,
+      "port": 4000
+    },
+    "singleProjectMode": true
+  }
+}
