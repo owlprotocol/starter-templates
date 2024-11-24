@@ -13,7 +13,7 @@
                 "prod",
                 "dev"
             ],
-            "pinVersion": "workspace:*"
+            "pinVersion": "^3.0.0"
         }
     ],
     "dependencyTypes": [

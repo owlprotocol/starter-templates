@@ -1,0 +1,33 @@
+{
+  "name": "@owlprotocol/starter-trpc",
+  "version": "0.0.0",
+  "keywords": ["firebase"],
+  "private": true,
+  "type": "commonjs",
+  "homepage": "https://github.com/owlprotocol/workspace-public",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owlprotocol/workspace-public.git"
+  },
+  "copyright": "Copyright 2024 Leo Vigna",
+  "license": "MIT",
+  "author": {
+    "name": "Leo Vigna",
+    "email": "leo@owlprotocol.xyz",
+    "url": "https://github.com/leovigna"
+  },
+  "files": ["dist/*", "lib/*", "src/*", "LICENSE", "README.md"],
+  "main": "./index.js",
+  "dependencies": {
+    "firebase-admin": "^12.1.0",
+    "firebase-functions": "^5.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/leovigna/owlprotocol/issues",
+    "email": "leo@owlprotocol.xyz"
+  },
+  "funding": "https://github.com/leovigna/owlprotocol",
+  "engines": {
+    "node": "18"
+  }
+}

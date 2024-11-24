@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "demo-owlprotocol",
+    "staging": "owl-protocol-staging",
+    "production": "owl-protocol"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
