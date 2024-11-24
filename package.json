@@ -1,8 +1,8 @@
 {
-  "name": "@owlprotocol/starter-monorepo",
+  "name": "@owlprotocol/starter-templates",
   "version": "2.0.1",
   "private": true,
-  "description": "Owl Protocol Starter Monorepo",
+  "description": "Owl Protocol Starter Templates",
   "keywords": [
     "pnpm",
     "workspace"

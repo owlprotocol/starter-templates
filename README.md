@@ -1,3 +1,3 @@
-# Starter Monorepo
+# Starter Templates
 
-Starter monorepo designed to work with pnpm and turbo repo.
+Starter templates designed to work with pnpm and turbo repo.
